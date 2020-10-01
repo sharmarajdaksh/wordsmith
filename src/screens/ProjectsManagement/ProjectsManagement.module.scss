@@ -1,0 +1,11 @@
+@import "../../styles/shared/themeColors";
+@import "../../styles/shared/_layoutConstants";
+
+.projectsManagement {
+  width: 70%;
+  max-width: 1200px;
+  margin: auto;
+  padding: $padding-basis;
+  background-color: $theme-dark-teal;
+  height: 25rem;
+}

@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+@import "../../styles/shared/themeColors";
+@import "../../styles/shared/_layoutConstants";
+
+.appHeaderWrapper {
+  // background-color: $theme-white;
+  color: $theme-teal;
+
+  .appHeader {
+    margin: auto;
+    padding: $padding-basis ($padding-basis * 2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // border-bottom: solid $theme-dark-teal 2px;
+
+    .appLogo {
+      font-family: "Alfa Slab One", cursive;
+      font-size: 2rem;
+      // letter-spacing: 1.5px;
+    }
+  }
+}

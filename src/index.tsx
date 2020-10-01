@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 
-import App from "./components/App.component";
+import App from "./screens/App.component";
 // import * as serviceWorker from "./serviceWorker";
 
 import "./styles/global/index.scss";
